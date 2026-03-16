@@ -1,0 +1,12 @@
+import os.path
+
+SECRET_KEY = 'chave-secreta'
+DEBUG = True
+
+DB_HOST = 'localhost'
+DB_NAME = r'C:\Users\Aluno\trabalho_3semestre_\BANCO\BANCO.FDB'
+
+DB_USER = 'sysdba'
+DB_PASSWORD = 'sysdba'
+
+UPLOAD_FOLDER = os.path.abspath(os.path.dirname(__file__))
